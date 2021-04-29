@@ -1,7 +1,7 @@
 FROM mono:latest
 
-LABEL maintainer="stewmcc<stewmcc@gmail.com>" \
-      description="For DocFX building(with mono.)"
+LABEL maintainer="Christian Tellefsen<christian.tellefsen@gmail.com>" \
+      description="For DocFX building (with mono.)"
 
 RUN apt-get update && apt-get install unzip wget git -y && \
     wget -q -P /tmp https://github.com/dotnet/docfx/releases/latest/download/docfx.zip && \
