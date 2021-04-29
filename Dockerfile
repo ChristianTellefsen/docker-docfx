@@ -1,7 +1,7 @@
 FROM mono:latest
 
-LABEL maintainer="stewmcc<stewmcc@gmail.com>" \
-      description="For DocFX building(with mono.)"
+LABEL maintainer="Christian Tellefsen<christian.tellefsen@gmail.com>" \
+      description="For DocFX building (with mono.)"
 
 ENV DOCFX_VER 2.57.2
 
